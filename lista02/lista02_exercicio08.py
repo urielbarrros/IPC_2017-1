@@ -8,6 +8,7 @@
 # Joelson Pereira Lima	                    1715310060
 # Lucas Gabriel Silveira Duarte             1715310053
 # Reinaldo da Silva Vargas	            1715310054
+# Walter Nobre da Silva Conceição           1715310057
 #
 # 8 - Explicar DETALHADAMENTE o funcionamento do programa abaixo:
 #
