@@ -2,12 +2,12 @@
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
-# Aracille de Souza Barbosa             1315120206
-# Felipe
-# Kethelen Tamara Braga Barbosa         1525212002
-# Nayara da Silva Cerdeira da Costa     1715310038
-# Vitor Summer Oliveira Pantaleão       1
-# Yuri Leandro de Aquino Silva          1615100462
+# Aracille de Souza Barbosa           1315120206
+# Felipe Eduardo Silva de Almeida     1715310031
+# Kethelen Tamara Braga               1525212002
+# Nayara da Silva Cerdeira da Costa   1715310038
+# Vitor Summer Oliveira Pantaleão     1715310042
+# Yuri Leandro de Aquino Silva        1615100462
 #
 # João Papo-de-Pescador, homem de bem, comprou um
 # microcomputador para controlar o rendimento diário
@@ -22,11 +22,13 @@
 # o conteúdo ZERO.
 # ----------------------------------------------------------
 
-weight = float(input("Digite o peso: "))
-
-if weight > 50.00:
-	excess = weight - 50
-	mulct   = excess * 4
-else:
-	excess = "ZERO"
-	mulct = "ZERO"
+weight = float(input("Digite o peso: ")) # criando uma variável do tipo flutuante para receber o peso digitado
+limp = 50.00 # atribuindo o valor de 50.00 kg para a variável
+excess = float (weight - limp) # fórmula que calcula o excesso de peso e armazena em uma variável do tipo flutuante
+if weight > limp: # inicialização da condição 'se', caso esta condição seja satisfeita então será feito o que se segue abaixo
+	mulct   = (excess * 4) # atribuindo o valor do produto do excesso com 4 à variavel multa
+	print ("excesso foi de ", excess) # imprimindo o excesso de peso
+	print ("a multa foi", mulct) # imprimindo o valor da multa pelo excesso
+else: # prosseguindo com a condição 'se-senão', caso a condição acima não seja satisfeita
+	print ("Excesso = ZERO") # imprimindo na tela a frase entre parênteses
+	print ("Multa = ZERO") # imprimindo na tela a frase entre parênteses

@@ -13,7 +13,6 @@
 # 1.5. Faça um Programa que converta metros para centímetros.
 # ----------------------------------------------------------
 
-
-size_in_meters = int(input('Digite a medida (em metros): '))
-size_in_centimeters = size_in_meters * 100
-print (size_in_meters, 'metros são', size_in_centimeters, 'centímetros')
+length_in_meters = int(input('Digite a medida (em metros): '))
+length_in_centimeters = length_in_meters * 100
+print ('%d metros são %d centímetros' % (length_in_meters, length_in_centimeters))
