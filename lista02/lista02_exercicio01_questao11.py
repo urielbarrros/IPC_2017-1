@@ -11,7 +11,7 @@
 #a) o produto do dobro do primeiro com metade do segundo .
 #b) a soma do triplo do primeiro com o terceiro.
 #c) o terceiro elevado ao cubo.
-
+#-----------------------------------------------
 a = int(input("Digite um número inteiro: ")) #primeiro número é imputado
 b = int(input("Digite um número inteiro: ")) #segundo número é imputado
 c = float(input("Digite um número real: ")) #terceiro número é imputado
