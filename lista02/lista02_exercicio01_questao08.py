@@ -1,19 +1,20 @@
 # ----------------------------------------------------------
-# Introdução a Programação de Computadores - IPC
+# IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 # Aracille de Souza Barbosa           1315120206
 # Felipe Eduardo Silva de Almeida     1715310031
 # Kethelen Tamara Braga               1525212002
-# Nayara da Silva Cedeira da Costa    1715310038
-# Vitor Summer Oliveira Pantaleão     1715310042
+# Nayara da Silva Cerdeira da Costa    1715310038
+# Vitor Summer Oliveira PantaleÃ£o     1715310042
 # Yuri Leandro de Aquino Silva        1615100462
 #
-#A questao ficou para ser completada com outro integrante do grupo.
 #
-#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+#FaÃ§a um Programa que pergunte quanto vocÃª ganha por hora e o nÃºmero de horas trabalhadas no mÃªs. Calcule e mostre o total do seu salÃ¡rio no referido mÃªs.
 #
 #-----------------------------------------------------------
 
-v=int(input("Quanto você ganha por hora?"))
-n=int(input("Quantas horas você trabalha no mês?"))
+v=int(input("Quanto vocÃª ganha por hora?"))
+n=int(input("Quantas horas vocÃª trabalha no mÃªs?"))
+resp=v*n
+print(resp)
