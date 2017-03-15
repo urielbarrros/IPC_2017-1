@@ -9,13 +9,12 @@
 #Evandro Padilha Barroso Filho         1715310009
 #
 ##
-#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+#Desenhe um espiral.
 #-----------------------------------------------------------------------------------------------------------------------
 import turtle
 t = turtle.Pen()
-for x in range(100):
-    t.fd(x)
-    t.lt(60)
-
+for x in range(1000):
+    t.fd(x/10+1)
+    t.lt(10)
 
 
