@@ -22,13 +22,13 @@
 # o conteúdo ZERO.
 # ----------------------------------------------------------
 
-weight = float(input("Digite o peso: "))
-limp = 50.00
-excess = float (weight - limp)
-if weight > limp:
-	mulct   = (excess * 4)
-	print ("excesso foi de ", excess)
-	print ("a multa foi", mulct)
-else:
-	print ("Excesso = ZERO")
-	print ("Multa = ZERO")
+weight = float(input("Digite o peso: ")) # criando uma variável do tipo flutuante para receber o peso digitado
+limp = 50.00 # atribuindo o valor de 50.00 kg para a variável
+excess = float (weight - limp) # fórmula que calcula o excesso de peso e armazena em uma variável do tipo flutuante
+if weight > limp: # inicialização da condição 'se', caso esta condição seja satisfeita então será feito o que se segue abaixo
+	mulct   = (excess * 4) # atribuindo o valor do produto do excesso com 4 à variavel multa
+	print ("excesso foi de ", excess) # imprimindo o excesso de peso
+	print ("a multa foi", mulct) # imprimindo o valor da multa pelo excesso
+else: # prosseguindo com a condição 'se-senão', caso a condição acima não seja satisfeita
+	print ("Excesso = ZERO") # imprimindo na tela a frase entre parênteses
+	print ("Multa = ZERO") # imprimindo na tela a frase entre parênteses
